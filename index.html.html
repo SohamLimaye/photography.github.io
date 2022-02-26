@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="index.css.css">
+</head>
+<body>
+
+<h1> Shutter Up Photography</h1>
+<h3> We capture the light</h3>
+
+<section5>
+@LOGO
+</section5>
+<section1>
+CONTACT
+</section1>
+<section2>
+GALLERY
+</section2>
+<section3>
+ABOUT
+</section3>
+<section4>
+SHOP
+</section4>
+<section6>
+©Copyright 2022. All rights reserved.
+</section6>
+
+<section7 onclick="changeBg()">
+VIEW GALLERY
+</section7>
+
+<p>
+<a href="https://www.facebook.com/">
+<img src="logos.png" alt="LOGOS" ">
+</a>
+</p>
+<script>
+ function changeBg(){
+ 
+ const images = [
+ 'url("cp.jpg")',
+ 'url("cp1.jpg")',
+ 'url("cp2.jpg")',
+ 'url("cp3.jpg")',
+ 'url("cp4.jpg")',
+ 'url("cp5.jpg")',
+ 'url("cp6.jpg")',
+ 'url("cp7.jpg")',
+ 
+ ]
+ 
+ 
+ 
+ const section1 = document.querySelector('section1');
+ const bg = images[Math.floor(Math.random()* images.lenght)];
+ section1.style.backgroundImage = bg;
+ }
+
+
+setInterval(changeBg,1000)
+
+</script>
+
+</body>
+</html>

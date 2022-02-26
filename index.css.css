@@ -1,0 +1,195 @@
+h1{
+color: ivory;
+min-height: none;
+border: 1px solid black;
+min-width: auto;
+position: absolute;
+  left: 50px;
+  right:50px;
+  top:35px;
+  bottom:auto;
+font-family:redemption;
+font-size: 500%;
+padding-top: 25%;
+padding-bottom: 25%;
+padding-left: 33%;
+padding-right: 33%;
+}
+h1{
+	background-image:url("cp2.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+background-attachment: fixed;
+	animation-name: slideran;
+animation-iteration-count: infinite;
+animation-duration: 60s;
+}
+@keyframes slideran{
+	0%{
+		background-image:url("cp2.jpg");
+		background-position: center;
+		background-size: auto;
+	}
+	17%{
+		background-image:url("cp.jpg");
+		background-position: center;
+		background-size: auto;
+	}
+	33%{
+		background-image:url("cp3.jpg");
+		background-position: center;
+		background-size: auto;
+	}
+	50%{
+		background-image:url("cp5.jpg");
+		background-position: center;
+		background-size: auto;
+	}
+	67%{
+		background-image:url("cp7.jpg");
+		background-position: center;
+		background-size: contain;
+	}
+	83%{
+		background-image:url("cp4.jpg");
+		background-position: center;
+		background-size: contain;
+	}
+	100%{
+		background-image:url("cp6.jpg");
+		background-position: center;
+		background-size: contain;
+	}
+	
+}
+
+h3{
+	color: white;
+	min-height: none;
+min-width: none;
+position: absolute;
+  left: 250px;
+  right:50px;
+  top: 275px;
+  bottom:auto;
+font-family:dosisā;
+font-size: 150%;
+padding-top: 25%;
+padding-bottom: 25%;
+padding-left: 30%;
+padding-right: 20%;
+	
+}
+body{
+	background-image:url("rp.jpg");
+	
+	
+
+}
+section5{
+	color: white;
+	font-size: 250%;
+	font-family:dosis;
+	position: absolute;
+	top: 13px;
+	left: 50px;
+	border: 2px solid black;
+	padding:1%;
+}
+section1{
+	color: white;
+	font-size: 150%;
+	font-family:dosis;
+	position: relative;
+	top: 30px;
+	left: 550px;
+	min-height: auto;
+	min-width: auto;
+	border: 2px solid black;
+	padding:1%;
+	
+}
+section2{
+	color: white;
+	font-size: 150%;
+	font-family: dosis;
+	position: relative;
+	top: 30px;
+	left: 570px;
+	min-height: 30px;
+	min-width: 30px;
+	border: 2px solid black;
+	padding:1%;
+
+
+
+}
+	
+section3{
+	color: white;
+	font-size: 150%;
+	font-family:dosis;
+	position: relative;
+	top: 30px;
+	left: 590px;
+	min-height: 30px;
+	min-width: 30px;
+	border: 2px solid black;
+	padding:1%;
+	
+
+}
+section4{
+	color: white;
+	font-size: 150%;
+	font-family:dosis;
+	position: relative;
+	top: 30px;
+	left: 610px;
+	min-height: 20px;
+	min-width: 20px;
+	border: 2px solid black;
+	padding:1%;
+
+
+}
+img {
+	position:absolute;
+	top:890px;
+	left: 1030px;
+	size: 25px 15px;
+	max-height:90px;
+	max-width: 110px;
+	
+}
+
+section6{
+	color: white;
+	font-size: 100%;
+	position: absolute;
+	top: 890px;
+	left: 50px;
+	border: 2px solid black;
+	padding:1%;
+}
+section7{
+	color: white;
+	font-size: 100%;
+	font-family:dosis;
+	position: absolute;
+	top: 705px;
+	left: 530px;
+	border: 2px solid white;
+	padding: 0.5%;
+}
+section7:hover{
+	color: white;
+	font-size: 200%;
+	font-family:dosis;
+	position: absolute;
+	top: 695px;
+	left: 470px;
+	border: 2px solid white;
+	padding: 0.5%;
+}
+
